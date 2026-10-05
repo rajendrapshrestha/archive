@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJzaHJlc3RoYSIsImlkIjoiNWVjMDVlNWU0YWQyNzAwMzI3MzgxNGQ5IiwiaWF0IjoxNTg5NjcxNjk1fQ.73Ztpg_YjKRrEL9zUT5ljWE9lt6UAUcJm_WjvJm8czw
+
+
+{
+    "title": "My super cool cool blog",
+    "author": "John Smith",
+    "url": "https://example.org/blog/12334",
+    "likes": 10
+}

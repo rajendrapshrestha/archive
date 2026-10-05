@@ -1,0 +1,33 @@
+# 1. UNIVERSAL BUILD & DEPENDENCY DIRECTORIES
+**/node_modules/
+**/bower_components/
+**/dist/
+**/build/
+**/out/
+**/target/
+**/bin/
+**/obj/
+**/.next/
+**/.nuxt/
+**/.cache/
+**/vendor/
+
+# Python & Ruby
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/ENV/
+**/.bundle/
+
+# Java, Rust, & Go
+**/.gradle/
+**/target/
+
+# 2. ENVIRONMENT, SYSTEM & IDE CLUTTER
+**/.env
+**/.env.*
+**/.vscode/
+**/.idea/
+**/.DS_Store
+**/Thumbs.db

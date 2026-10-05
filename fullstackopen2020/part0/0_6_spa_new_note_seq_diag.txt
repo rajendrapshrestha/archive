@@ -1,0 +1,16 @@
+title SPA New Note
+
+note over browser:
+user adds new note and clicks submit
+new note is added to list of notes in DOM
+end note
+browser->browser: redraw notes on browser
+
+note over browser:
+browser sends new notes to server using AJAX
+end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+server saves note
+end note
